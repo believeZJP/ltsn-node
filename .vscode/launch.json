@@ -12,7 +12,7 @@
                 "<node_internals>/**"
             ],
             "args": [
-				"-h"
+				"10"
 			],
             "program": "${workspaceFolder}/bin/ltsnode.js"
         }

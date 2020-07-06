@@ -1,6 +1,6 @@
 {
   "name": "ltsnode",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "CommandLine Tool for Node LTS",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,9 @@
     "cli-color": "^2.0.0",
     "cli-table": "^0.3.1",
     "compare-versions": "^3.6.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }

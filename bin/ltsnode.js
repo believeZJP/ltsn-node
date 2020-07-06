@@ -11,6 +11,9 @@ const update = require('..').update
 // 输出结果到命令行
 function printResult(v) {
     update(v).then(dists => {
+        if (!dists) {
+            return;
+        }
         const result = query(dists)
         console.log(color.blue(result))
         process.exit()
