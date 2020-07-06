@@ -1,5 +1,5 @@
 {
-  "name": "lstnode",
+  "name": "ltsnode",
   "version": "1.0.0",
   "description": "CommandLine Tool for Node LTS",
   "main": "index.js",
@@ -7,18 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ltsnode": "bin/ltsn"
+    "ltsnode": "bin/ltsnode"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/believeZJP/ltsn-node.git"
+    "url": "git+https://github.com/believeZJP/ltsnode.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/believeZJP/ltsn-node/issues"
+    "url": "https://github.com/believeZJP/ltsnode/issues"
   },
-  "homepage": "https://github.com/believeZJP/ltsn-node#readme",
+  "homepage": "https://github.com/believeZJP/ltsnode#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "cli-color": "^2.0.0",

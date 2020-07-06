@@ -19,7 +19,7 @@ function printResult(v) {
 
 // 打印版本号
 function printVersion() {
-    console.log(color.bold('ltsn ' + pkg.version))
+    console.log(color.bold('ltsnode ' + pkg.version))
     process.exit()
 }
 
@@ -28,14 +28,14 @@ function printHelp(code) {
     const lines = [
         '',
         '  Usage:',
-        '    ltsn [8]',
+        '    ltsnode [8]',
         '',
         '  Options:',
         '    -v, --version             print the version of vc',
         '    -h, --help                display this message',
         '',
         '  Examples:',
-        '    $ ltsn 8',
+        '    $ ltsnode 8',
         ''
     ]
     console.log(lines.join('\n'))

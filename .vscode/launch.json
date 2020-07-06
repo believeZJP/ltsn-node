@@ -14,7 +14,7 @@
             "args": [
 				"-h"
 			],
-            "program": "${workspaceFolder}/bin/ltsn.js"
+            "program": "${workspaceFolder}/bin/ltsnode.js"
         }
     ]
 }
