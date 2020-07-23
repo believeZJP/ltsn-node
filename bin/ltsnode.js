@@ -47,9 +47,9 @@ function printHelp(code) {
 
 // 包的入口函数，里面对参数做剪裁处理，拿到入参并给予不同入参的处理逻辑
 function main(argv) {
-    // if (!argv || !argv.length) {
-    //     printHelp(1);
-    // }
+    if (!argv || !argv.length) {
+        printHelp(1);
+    }
 
     const getArg = function() {
         let args = argv.shift()
